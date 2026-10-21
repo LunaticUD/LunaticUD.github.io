@@ -1,0 +1,148 @@
+baseURL: "https://lunaticud.github.io/"
+title: 泊尘畔
+theme: PaperMod
+locale: zh-CN
+defaultContentLanguage: zh
+hasCJKLanguage: true
+enableRobotsTXT: true
+enableEmoji: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+summaryLength: 70
+
+pagination:
+  pagerSize: 10
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+permalinks:
+  posts: /posts/:slug/
+
+taxonomies:
+  tag: tags
+  category: categories
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: 泊尘畔
+  description: "生信、折腾与记录 —— Loong 的个人笔记"
+  keywords: [生信, 生物信息, Python, R, Neovim, Linux, 博客]
+  author: Loong
+  DateFormat: "2006-01-02"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  TocOpen: false
+
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+
+  assets:
+    favicon: /favicon.svg
+    favicon16x16: /favicon.svg
+    favicon32x32: /favicon.svg
+
+  label:
+    text: "泊尘畔"
+    icon: /favicon.svg
+    iconHeight: 35
+
+  profileMode:
+    enabled: false
+
+  homeInfoParams:
+    Title: "你好，我是 Loong 👋"
+    Content: >
+      这里是我的个人笔记：生物信息分析、Linux / Windows 环境配置、
+      Neovim 折腾，以及偶尔的一点随笔。
+      原博客在博客园「泊尘畔」，现已整体迁移到这里。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/LunaticUD"
+    - name: rss
+      url: "/index.xml"
+    - name: email
+      url: "mailto:"
+
+  analytics:
+    google:
+      SiteVerificationTag: ""
+    bing:
+      SiteVerificationTag: ""
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  editPost:
+    URL: "https://github.com/LunaticUD/LunaticUD.github.io/tree/main/content"
+    Text: "建议修改"
+    appendFilePath: true
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 30
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 40
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block: [['$$', '$$'], ['\\[', '\\]']]
+          inline: [['$', '$'], ['\\(', '\\)']]
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    tabWidth: 4
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4

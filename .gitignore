@@ -1,0 +1,15 @@
+# Hugo 构建产物
+public/
+resources/_gen/
+.hugo_build.lock
+
+# 迁移用的临时文件（原始 HTML、Hugo 二进制等）
+.migrate/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
