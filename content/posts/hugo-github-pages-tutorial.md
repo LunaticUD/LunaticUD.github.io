@@ -7,8 +7,8 @@ tags: ["Hugo", "GitHub Pages", "博客", "教程", "Sublime Text"]
 categories: ["建站"]
 summary: "从装 Hugo 到自动部署上线，把一套免费、快速、能长期维护的个人博客搭起来，附一套用 Sublime Text 写作的工作流。"
 cover:
-  image: "/images/posts/hugo-github-pages-tutorial/cover.png"
-  alt: "Hugo + GitHub Pages 博客搭建教程"
+  image: "/images/posts/hugo-github-pages-tutorial/cover.jpg"
+  alt: "像素风格的创作房间插画"
   relative: false
 ShowToc: true
 TocOpen: true
