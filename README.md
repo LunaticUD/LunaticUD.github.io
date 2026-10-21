@@ -77,17 +77,31 @@ Pages 已经配置为 **GitHub Actions** 模式，无需再手动设置。
 
 ### 推送遇到 `Connection was reset` 怎么办
 
-国内直连 GitHub 的 git 端口经常被重置。本机代理端口是 `7897`，推送时带上：
+国内直连 GitHub 的 git 端口经常被重置（实测 `github.com` 直连完全不通）。两条路：
+
+**路子一：走代理推送**
 
 ```bash
 git -c http.proxy=http://127.0.0.1:7897 push
 ```
 
-或者一次性写进配置（只对当前仓库生效）：
+**路子二：完全不用代理，走 API 发布（推荐）**
+
+`github.com` 被墙，但 `api.github.com` 通常可以直连。项目根目录的 `publish.py` 就是干这个的：
 
 ```bash
-git config http.proxy http://127.0.0.1:7897
+python publish.py "新文章：xxx"
 ```
+
+首次使用要先给脚本一个 token，二选一：
+
+- 设置环境变量 `GITHUB_TOKEN`
+- 或把 token 写进 `.migrate/token.txt`（一行，只放 token）
+
+脚本会自动读 `git status` 的改动，通过 GitHub API 提交，然后 GitHub Actions 照常构建部署。
+发布完本地也会留一个 commit 存档（sha 和远端不同是正常的，别混用两种方式推同一个分支）。
+
+> 注意：两种方式**不要混用**。一直用代理 push，或一直用 API 发布，二选一。
 
 ### 认证方式
 
