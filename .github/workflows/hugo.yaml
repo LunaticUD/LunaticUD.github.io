@@ -25,9 +25,6 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-      TZ: Asia/Shanghai
     steps:
       - name: Install Hugo CLI
         run: |
@@ -48,6 +45,8 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          TZ: Asia/Shanghai
         run: |
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
