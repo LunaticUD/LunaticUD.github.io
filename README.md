@@ -71,9 +71,34 @@ ShowToc: true                 # 是否显示目录
 
 ## 部署
 
-推送到 `main` 分支即触发 `.github/workflows/hugo.yaml` 自动构建并部署到 GitHub Pages。
+推送到 `main` 分支即触发 `.github/workflows/hugo.yaml` 自动构建并部署到 GitHub Pages，约 1 分钟上线。
 
-首次部署需要在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+Pages 已经配置为 **GitHub Actions** 模式，无需再手动设置。
+
+### 推送遇到 `Connection was reset` 怎么办
+
+国内直连 GitHub 的 git 端口经常被重置。本机代理端口是 `7897`，推送时带上：
+
+```bash
+git -c http.proxy=http://127.0.0.1:7897 push
+```
+
+或者一次性写进配置（只对当前仓库生效）：
+
+```bash
+git config http.proxy http://127.0.0.1:7897
+```
+
+### 认证方式
+
+当前用 Personal Access Token 推送。想让 `git push` 不再每次输 token，可以换成 SSH：
+
+```bash
+ssh-keygen -t ed25519 -C "3223079741@qq.com"
+# 把 ~/.ssh/id_ed25519.pub 内容贴到 https://github.com/settings/keys
+ssh -T git@github.com
+git remote set-url origin git@github.com:LunaticUD/LunaticUD.github.io.git
+```
 
 ## 修改站点信息
 
