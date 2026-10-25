@@ -5,7 +5,7 @@ date: 2024-12-17T23:05:00+08:00
 draft: false
 tags: ["Python", "R", "Conda", "VSCode"]
 categories: ["环境配置"]
-summary: "就个人而言，首先本人更喜欢手动配置自己需要的东西，不想带一些不需要的包，多少有些洁癖，其次本人更喜欢一体化的去管理一个项目，miniconda正是我现在寻找的一项选择。本文仅供记录和参考"
+summary: "在 Windows 上用 Miniconda 建一个同时装 Python 3.9 和 R 的虚拟环境，注册成 VSCode 的 Jupyter 内核，附完整命令、内核切换和 settings.json。"
 ShowToc: true
 TocOpen: false
 hidemeta: false

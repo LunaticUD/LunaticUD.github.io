@@ -5,7 +5,7 @@ date: 2025-10-05T17:30:00+08:00
 draft: false
 tags: ["生信", "Windows", "质控"]
 categories: ["生信分析"]
-summary: "MSYS2 是基于Cygwin软件开发而来的工具和库的集合，为您提供了一个易于使用的环境，用于构建、安装和运行本机 Windows 软件。拥有一个软件包安装和更新的Pacman包管理系统，它拥有一个强大的功能，不限于依赖"
+summary: "在 Windows 上用 MSYS2 编译生信软件，再用 fastp / Fastplong 做 FASTQ 质控——覆盖短读长与长读长、单端与双端的处理选择。"
 ShowToc: true
 TocOpen: false
 hidemeta: false

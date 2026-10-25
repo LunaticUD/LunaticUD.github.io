@@ -13,6 +13,9 @@ resources/_gen/
 .DS_Store
 Thumbs.db
 
+# 本地备份
+.backup-*/
+
 # 编辑器
 .vscode/
 .idea/

@@ -5,7 +5,7 @@ date: 2025-01-02T16:51:00+08:00
 draft: false
 tags: ["生信", "数据库"]
 categories: ["生信分析"]
-summary: "OMIA是一个免费的、经过同行评审的知识库，它包含了关于动物遗传特征的信息，特别关注那些与人类疾病相似的特征。该数据库旨在促进对动物模型中遗传性状的研究。"
+summary: "生信常用的 8 个数据库与 19 个在线工具速查：从 NCBI、UCSC、EBI 到 BLAST、TMHMM、PLINK，每个附一句用途和直达链接。"
 ShowToc: true
 TocOpen: false
 hidemeta: false

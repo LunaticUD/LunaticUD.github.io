@@ -75,18 +75,29 @@ params:
 
   homeInfoParams:
     Title: "你好，我是 Loong 👋"
-    Content: >
-      这里是我的个人笔记：生物信息分析、Linux / Windows 环境配置、
-      Neovim 折腾，以及偶尔的一点随笔。
-      原博客在博客园「泊尘畔」，现已整体迁移到这里。
+    Content: |
+      写给做生物信息的人：Linux 服务器上踩过的坑、跑通的流程，以及教程里不会写的那部分。
+
+      **刚进实验室，要把环境跑起来**
+
+      - [Miniconda 装 Python 和 R，接入 VSCode-Jupyter](/posts/miniconda-python-r-vscode-jupyter/) —— 一套命令建好双语言环境
+      - [Windows 下搭一套顺手的终端](/posts/powershell-setup/) —— PowerShell 提示符与常用配置
+
+      **要查数据、跑分析**
+
+      - [生信数据库及工具](/posts/bioinfo-databases-tools/) —— 8 个数据库 + 19 个在线工具速查
+      - [Windows 下的软件编译与测序质控](/posts/windows-software-build-qc/) —— MSYS2 编译 + fastp 质控
+      - [各文献参考格式](/posts/citation-formats/) —— GB/T 7714 九类文献著录格式
+
+      **想把编辑器调成自己的**
+
+      - [Neovim 配置系列](/posts/nvim-preparation-1/) —— 2022 年的记录，插件管理部分已过时
 
   socialIcons:
     - name: github
       url: "https://github.com/LunaticUD"
     - name: rss
       url: "/index.xml"
-    - name: email
-      url: "mailto:"
 
   analytics:
     google:
@@ -110,6 +121,10 @@ menu:
       name: 文章
       url: /posts/
       weight: 10
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 15
     - identifier: archives
       name: 归档
       url: /archives/

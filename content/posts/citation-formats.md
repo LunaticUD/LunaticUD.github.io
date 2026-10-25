@@ -5,7 +5,7 @@ date: 2024-06-05T10:50:00+08:00
 draft: false
 tags: ["学术", "写作", "文献"]
 categories: ["科研工具"]
-summary: "序号 主要作者.文献题名J.刊名，出版年份，卷号期号：起止页码."
+summary: "GB/T 7714 文献著录格式速查：期刊、专著、论文集、学位论文、报告、专利、标准、报纸、电子文献九类，每类附示例。"
 ShowToc: true
 TocOpen: false
 hidemeta: false
