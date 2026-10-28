@@ -6,6 +6,9 @@ draft: false
 tags: ["随笔", "散文", "努力"]
 categories: ["随笔"]
 summary: "三百天的价值，被一天的空白否定掉，这账怎么算都不对。"
+cover:
+  image: "/images/posts/lianxu/cover.png"
+  relative: false
 ShowToc: false
 TocOpen: false
 hidemeta: false
