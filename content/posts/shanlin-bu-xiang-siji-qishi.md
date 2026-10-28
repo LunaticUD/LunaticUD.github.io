@@ -3,7 +3,7 @@ title: "山林不向四季起誓，荣枯随缘；海洋不需对沙岸承诺，
 slug: "shanlin-bu-xiang-siji-qishi"
 date: 2026-10-28T11:30:00+08:00
 draft: false
-tags: ["随笔", "散文", "自然"]
+tags: ["随笔", "散文", "自我"]
 categories: ["随笔"]
 summary: "槐树没跟春天约定过什么，海也没答应过沙岸。它站在自己落下的东西上面——落下去的那部分，明年会从根上再上来一次。"
 ShowToc: false
