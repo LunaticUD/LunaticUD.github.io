@@ -1,7 +1,7 @@
 ---
 title: "一日即是落地，执念不必连续"
 slug: "lianxu"
-date: 2026-10-28T21:58:36
+date: 2026-10-28T21:58:36+08:00
 draft: false
 tags: ["随笔", "散文", "努力"]
 categories: ["随笔"]
