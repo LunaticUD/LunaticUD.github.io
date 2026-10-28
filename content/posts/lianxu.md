@@ -9,10 +9,10 @@ summary: "三百天的价值，被一天的空白否定掉，这账怎么算都�
 cover:
   image: "/images/posts/lianxu/cover.png"
   relative: false
-ShowToc: false
-TocOpen: false
+ShowToc: true
+TocOpen: true
 hidemeta: false
-comments: false
+comments: true
 ShowReadingTime: true
 ShowShareButtons: true
 ShowBreadCrumbs: true
