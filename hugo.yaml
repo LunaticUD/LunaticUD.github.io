@@ -61,13 +61,14 @@ params:
   showtoc: true
 
   assets:
-    favicon: /favicon.svg
-    favicon16x16: /favicon.svg
-    favicon32x32: /favicon.svg
+    favicon: /favicon-32x32.png
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    apple_touch_icon: /apple-touch-icon.png
 
   label:
     text: "泊尘畔"
-    icon: /favicon.svg
+    icon: /images/avatar.webp
     iconHeight: 35
 
   profileMode:
