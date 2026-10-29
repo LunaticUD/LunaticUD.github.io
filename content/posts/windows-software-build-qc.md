@@ -18,7 +18,7 @@ ShowPostNavLinks: true
 
 ## 一、Msys的编译
 
-![2025-10-05_144929](/images/posts/windows-software-build-qc/01.png)
+![2025-10-05_144929](/images/posts/windows-software-build-qc/01.webp)
 
   
 MSYS2 是基于Cygwin软件开发而来的工具和库的集合，为您提供了一个易于使用的环境，用于构建、安装和运行本机 Windows 软件。拥有一个软件包安装和更新的Pacman包管理系统，它拥有一个强大的功能，不限于依赖关系解析、简单的系统升级，以及直接的可重复的包构建，其软件存储库包含3500多个预构建软件包。
@@ -46,7 +46,7 @@ MSYS2 是基于Cygwin软件开发而来的工具和库的集合，为您提供�
 
 ## 二、质控
 
-![2025-10-05_151124](/images/posts/windows-software-build-qc/02.png)
+![2025-10-05_151124](/images/posts/windows-software-build-qc/02.webp)
 
   
 

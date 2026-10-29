@@ -20,11 +20,11 @@ ShowPostNavLinks: true
 
 ## 0.结果展示
 
-![](/images/posts/powershell-setup/01.png)
+![](/images/posts/powershell-setup/01.webp)
 
   
 
-![](/images/posts/powershell-setup/02.png)
+![](/images/posts/powershell-setup/02.webp)
 
 ## 1.配置输出符号
 

@@ -88,7 +88,7 @@ require('mini.starter').setup({
 })
 ```
 
-![](/images/posts/nvim-mini-plugins-5/01.png)
+![](/images/posts/nvim-mini-plugins-5/01.webp)
 
 indentscope模块——缩进线
 
@@ -151,4 +151,4 @@ require('mini.cursorword').setup({
 })
 ```
 
-![](/images/posts/nvim-mini-plugins-5/02.png)
+![](/images/posts/nvim-mini-plugins-5/02.webp)

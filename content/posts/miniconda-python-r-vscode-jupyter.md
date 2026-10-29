@@ -28,7 +28,7 @@ ShowPostNavLinks: true
 
 ### [Visual Studio Code的安装](https://code.visualstudio.com/docs/?dv=win64user)
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/02.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/02.webp)
 
 ## Miniconda的安装python和R
 
@@ -52,15 +52,15 @@ jupyter kernelspec remove data
 
 ### 打开一个\*.ipynb文本文件
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/03.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/03.webp)
 
 ### 右上角显示选择内核点击
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/04.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/04.webp)
 
 ### 切换内核
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/05.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/05.webp)
 
 ## 配置Vscode
 
@@ -102,25 +102,25 @@ jupyter kernelspec remove data
 
 #### Python；
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/06.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/06.webp)
 
   
 jupyter；  
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/07.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/07.webp)
 
 #### R；
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/08.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/08.webp)
 
 ### 美化插件
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/09.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/09.webp)
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/10.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/10.webp)
 
 ## 尽情享受吧！
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/11.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/11.webp)
 
-![](/images/posts/miniconda-python-r-vscode-jupyter/12.png)
+![](/images/posts/miniconda-python-r-vscode-jupyter/12.webp)

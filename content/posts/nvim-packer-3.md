@@ -59,4 +59,4 @@ return require('packer').startup({
 })
 ```
 
-![](/images/posts/nvim-packer-3/01.png)
+![](/images/posts/nvim-packer-3/01.webp)
