@@ -116,10 +116,10 @@ params:
     hiddenInList: false
     hiddenInSingle: false
 
-  editPost:
-    URL: "https://github.com/LunaticUD/LunaticUD.github.io/tree/main/content"
-    Text: "建议修改"
-    appendFilePath: true
+  # editPost:
+  #   URL: "https://github.com/LunaticUD/LunaticUD.github.io/tree/main/content"
+  #   Text: "建议修改"
+  #   appendFilePath: true
 
 menu:
   main:
