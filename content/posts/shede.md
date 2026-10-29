@@ -1,6 +1,6 @@
 ---
 title: "绳子是自己系的"
-slug: "lianxu"
+slug: "shede"
 date: 2026-10-29T21:44:10+08:00
 draft: false
 tags: ["随笔", "散文", "和解"]
