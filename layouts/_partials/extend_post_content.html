@@ -1,0 +1,6 @@
+{{- /* 文章末尾声明。仅对 content/posts/ 下的文章生效 */ -}}
+{{- if eq .Section "posts" }}
+<div class="post-declaration">
+  <p>本文内容为个人观点，仅供参考。</p>
+</div>
+{{- end }}
